@@ -51,7 +51,7 @@ https://hub.docker.com/repository/docker/genzouw/myrepo
 **I recommend that you set the following alias in `~/.*rc`.**
 
 ```bash
-$ alias td='docker run --rm --volumes-from docker_hub_cli-config genzouw/docker_hub_api'
+$ alias docker_hub='docker run --rm --volumes-from docker_hub_cli-config genzouw/docker_hub_api'
 ```
 
 ## License
