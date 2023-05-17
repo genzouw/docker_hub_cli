@@ -7,7 +7,7 @@ RUN apk add --no-cache \
   jq \
   ;
 
-env HOME /root
+ENV HOME /root
 
 WORKDIR $HOME
 
